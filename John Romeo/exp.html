@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive Webpage Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            DI-BTECH LEVEL 3
+        </div>
+        <nav>
+            <ul>
+                <li><a href="sos.html">Home</a></li>
+                <li><a href="pat.html">Tourist sites</a></li>
+                <li><a href="galla.html">Gallery</a></li>
+                <!-- <li><a href="#">Destinations</a></li> -->
+                <li><a href="exp.html">About Us</a></li>
+                <li><a href="contact.html" class="button">Plan Your Trip</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Introduction Section -->
+    <section class="intro">
+        <h1>Welcome </h1>
+        <p>This is an introduction to our amazing webpage. Explore the sections below.</p>
+        <br>
+        <img src="independence-square-2419577_1280.jpg">
+        
+
+    </section>
+
+    <section class="me">
+        <p><h1>About Us</h1></p>
+        <br>
+        <p><h3> I'm John Romeo Ahadzi, the creative mind behind this tourism website. I'm a passionate web designer with a deep love for travel, storytelling, and creating digital experiences that connect people with new places and cultures.
+
+            This site was born from my belief that exploring the world should be easy, inspiring, and accessible. Whether it’s hidden waterfalls, sandy beaches, or bustling city escapes, my goal is to bring these destinations to life through beautiful design and user-friendly features.</h3></p>
+            
+            
+    </section>
+
+    
+
+    <!-- Content Section 1 (Text Left, Image Right) -->
+    <section class="content-section">
+        <div class="text">
+            <h2>About Our Mission</h2>
+            <p>We strive to deliver high-quality content and user experiences.</p>
+        </div>
+        <div class="image">
+            <img src="OIP.jpeg" alt="Our Mission">
+        </div>
+    </section>
+
+    <!-- Content Section 2 (Image Left, Text Right) -->
+    <section class="content-section reverse">
+        <div class="image">
+            <img src="WhatsApp-Image-2023-03-29-at-14.09.58.jpeg" alt="Our Vision">
+        </div>
+        <div class="text">
+            <h2>Our Vision</h2>
+            <p>We envision a world where technology enhances everyday life.</p>
+        </div>
+    </section>
+    <footer>    <div>
+        <h4>About Us</h4>
+        <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Careers</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Services</h4>
+        <ul>
+            <li><a href="#">Service 1</a></li>
+            <li><a href="#">Service 2</a></li>
+            <li><a href="#">Service 3</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Support</h4>
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Legal</h4>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-shield-halved"></i>  Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+        </ul>
+    </div>
+    <div>
+        <h4>Connect</h4>
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i>  Facebook</a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i>  Twitter</a></li>
+            <li><a href="#">  <i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            <li><a href="#">&copy; Tourism </a></li>
+
+
+        </ul>
+    </div>
+
+</footer>
+</body>
+</html>
+
+
+  <style>
+  /* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: lightblue;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    background-color: white;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+/* border: 1px solid yellow;    */
+justify-items: center;
+color: cyan;
+align-content: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+nav{
+    width: 80%;
+    height: 100%;
+    align-content: center;
+    justify-items: center;
+    /* border: 1px solid green; */
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+nav ul>li{
+    list-style-type: none;
+}
+nav li >a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:cyan;
+    font-size: larger;
+}
+.button{
+    padding: 15px 7px 15px 7px;
+     border: 1px solid white; 
+    border-radius: 20px;
+    position: relative;
+    right: -7cm;
+}
+h1{
+    text-align: center;
+    text-decoration: dotted;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+/* Content Sections */
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+    gap: 20px;
+}
+
+/* Text Styling */
+.text {
+    flex: 1;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+}
+
+/* Image Styling */
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Reverse Layout for Alternating Sections */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .reverse {
+        flex-direction: column;
+    }
+
+    .image img {
+        max-width: 90%;
+    }
+}
+footer {
+    background-color: darkblue;
+    color: darkgray;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+    color: darkgray;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    color: darkgray;
+}
+  
+  </style>
+
