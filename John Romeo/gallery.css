@@ -17,7 +17,7 @@ header{
 }
 .logo {
     height: 60px;
-    color: cyan;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     display: flex;
@@ -44,7 +44,7 @@ nav ul>li{
 nav li >a{
     text-decoration: none;
     text-transform: capitalize;
-    color:cyan;
+    color:black;
     font-size: larger;
 }
 .button{
